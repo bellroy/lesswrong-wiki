@@ -1,0 +1,45 @@
+/* content area */ 
+
+#column-content #content {
+	margin-left: 240px;
+	height: 1%;
+}
+
+.rtl #column-one {
+	/* For some reason it tries to inherit the padding-top into every div,
+	 * and I can't figure out how to get it back off.
+	 * Margin works correctly for this use, though.
+	 */
+	padding-top: 0;
+	margin-top: 160px;
+}
+
+/* the tabs */
+
+#p-cactions {
+	z-index: 3;
+}
+
+
+
+#portal-personaltools {
+	padding-bottom: 0.1em;
+}
+textarea {
+	width: 96%;
+}
+
+/*
+div.editsection,
+#catlinks,
+div.tright,
+div.tleft {
+	position: relative;
+}
+*/
+
+
+#footer li {
+	/* Work around bug with inline <li> tags with right margins and nowrap */
+	margin-right: 0;
+}

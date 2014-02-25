@@ -1,0 +1,50 @@
+img#gradient, a#logo img, a#fhi img {
+	behavior: url(/mediawiki/skins/lesswrong/iepngfix.htc);
+}
+
+/* content area */ 
+#column-content { 
+	height: 1%;
+}
+#column-content #content {
+	margin-left: 240px;
+	height: 1%;
+}
+
+/* the tabs */
+#p-cactions {
+	z-index: 3;
+}
+
+#portal-personaltools {
+	padding-bottom: 0.1em;
+}
+#bodyContent a.external {
+	background: url(external.png) center right no-repeat;
+	padding-right: 13px;
+}
+
+/* show the hand */
+#p-logo a,
+#p-logo a:hover {
+	cursor: pointer;
+}
+div.visualClear {
+	width:100%;
+	line-height: 0;
+}
+textarea {
+	width: 96%;
+}
+
+div.editsection,
+#catlinks,
+div.tright,
+div.tleft {
+	position: relative;
+}
+
+/* bug 12846 */
+body.rtl #preftoc a, body.rtl #preftoc a:active {
+	float: left;
+}
