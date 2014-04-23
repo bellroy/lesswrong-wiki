@@ -474,6 +474,10 @@ input.searchButton {
 	font-weight: bold;
 }
 
+#p-Wiki_navigation {
+	display: none;
+}
+
 
 /* Content Area
 -------------------------------------------------------------------------------------- */
