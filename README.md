@@ -1,4 +1,5 @@
-lesswrong-wiki-skin
+lesswrong-wiki
 ===================
 
-Skin for the lesswrong wiki (mediawiki)
+
+Repository for the skins and extentions in use on the lesswrong wiki
