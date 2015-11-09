@@ -230,18 +230,18 @@ a#cfar {
   margin: 45px 18px 0 0;
 }
 a#miri {
-  background: url(http://wiki.lesswrong.com/mediawiki/skins/lesswrong/miri.png) no-repeat top left;
+  background: url(/mediawiki/skins/LessWrong/miri.png) no-repeat top left;
   width: 78px;
   background-position: 0 -78px;
   margin-top: 44px;
 }
 a#fhi {
-  background: url(http://wiki.lesswrong.com/mediawiki/skins/lesswrong/FHI_diamond.png?20120720) no-repeat top left;
+  background: url(/mediawiki/skins/LessWrong/FHI_diamond.png?20120720) no-repeat top left;
   width: 67px;
   background-position: 0 -78px;
 }
 a#cfar {
-  background: url(http://wiki.lesswrong.com/mediawiki/skins/lesswrong/cfar.png?20120720) no-repeat top left;
+  background: url(/mediawiki/skins/LessWrong/cfar.png?20120720) no-repeat top left;
   width: 69px;
   background-position: 0 -78px;
 }
@@ -973,7 +973,7 @@ special external link styling */
 	margin-right: 2em;
 }
 .prefsection legend {
-	font-weight: bold;   
+	font-weight: bold;
 }
 .prefsection table, .prefsection legend {
 	background-color: #F9F9F9;
@@ -1437,7 +1437,7 @@ tr.sv-space td { display: none; }
 .TablePager { min-width: 80%; }
 .TablePager_nav a { text-decoration: none; }
 .TablePager { border-collapse: collapse; }
-.TablePager, .TablePager td, .TablePager th { 
+.TablePager, .TablePager td, .TablePager th {
 	border: 1px solid #aaaaaa;
 	padding: 0 0.15em 0 0.15em;
 }

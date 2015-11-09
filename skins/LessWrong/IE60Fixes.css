@@ -1,9 +1,9 @@
 img#gradient, a#logo img, a#fhi img {
-	behavior: url(/mediawiki/skins/lesswrong/iepngfix.htc);
+	behavior: url(/mediawiki/skins/LessWrong/iepngfix.htc);
 }
 
-/* content area */ 
-#column-content { 
+/* content area */
+#column-content {
 	height: 1%;
 }
 #column-content #content {
