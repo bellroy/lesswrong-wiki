@@ -129,7 +129,7 @@ class LessWrongTemplate extends QuickTemplate {
 
 	<div id="header">
 			<a href="<?php echo htmlspecialchars($this->data['nav_urls']['mainpage']['href'])?>" id="logo">
-				<img alt="Lesswrong Logo" src="http://wiki.lesswrong.com/mediawiki/skins/LessWrong/logo_wiki_trans.png" />
+				<img alt="Lesswrong Logo" src="/mediawiki/skins/LessWrong/logo_wiki_trans.png" />
 			</a>
 			<a id="fhi" href="http://www.fhi.ox.ac.uk/" target="_blank">Future of Humanity Institute</a>
 			<a id="miri" href="http://intelligence.org/" target="_blank">Machine Intelligence Research Institute</a>
